@@ -1,0 +1,41 @@
+
+
+.row {
+    padding-top: 7%;
+}
+
+.wrapper-colaborate {
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+   
+}
+
+.participant>.wrapper-colaborate {
+    justify-content:flex-start;
+   
+}
+
+.img-participant {
+    height: auto;
+    width: 35%;
+}
+
+.img-participant1 {
+  height: auto;
+  width: 28%;
+}
+
+.wrapper-participant{
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-start;
+   
+}
+
+.wrapper-participant h1,p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+}

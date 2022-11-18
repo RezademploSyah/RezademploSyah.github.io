@@ -1,0 +1,61 @@
+/* tablet start */
+@media screen and (max-width : 922px) and (min-width: 768px) {
+
+
+    /* navbar start */
+    #navbarNavAltMarkup {
+        background-color: rgba(2, 78, 77, 0.896);
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .button-order {
+        color: white;
+        background-color: var(--main--bg);
+
+    }
+
+    /* navbar end */
+    .colaborate-left p {
+        font-size: 24px;
+        top: 25%;
+        left: 23%;
+    }
+
+    .colaborate-left img {
+        transform: translate(0%, 60%);
+        height: 36%;
+        width: auto;
+        z-index: -1;
+    }
+
+}
+
+/* tablet end */
+
+@media screen and (max-width : 767px) {
+
+    /* navbar start */
+    #navbarNavAltMarkup {
+        background-color: rgba(2, 78, 77, 0.896);
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .button-order {
+        color: white;
+        background-color: var(--main--bg);
+
+    }
+
+    /* navbar end */
+
+    .colaborate-left {
+        display: none;
+    }
+
+    .colaborate-right form {
+        border: 2px solid white;
+        background: url(../images/lanang\ colaborate3.png);
+    }
+}

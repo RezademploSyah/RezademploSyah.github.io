@@ -1,0 +1,233 @@
+@media screen and (max-width : 922px) and (min-width:768px) {
+
+   /* navbar start */
+   #navbarNavAltMarkup{
+      background-color: rgba(2, 78, 77, 0.896);
+      padding-bottom: 10px;
+      padding-left: 10px;
+    }
+    .button-order {
+       color: white;
+      background-color: var(--main--bg);
+   
+    }
+   /* navbar end */
+
+   /* about start */
+   .lanang-title,
+   .lanang-title-1 {
+      font-size: 3.2em;
+   }
+
+   .about-lanang {
+      font-size: 1.2em;
+      line-height: 27px;
+   }
+
+   /* about aside */
+   .img-lanang {
+      width: 65%;
+      height: auto;
+      transform: translate(47%, 50%);
+   }
+
+   .ibu {
+      width: 130px;
+      top: 15%;
+      right: 43%;
+   }
+
+   .ayah {
+      top: 22%;
+      right: -2%;
+   }
+
+   .ayah .bunder3 {
+      margin: 8px;
+      height: 125px;
+      border-radius: 4px;
+   }
+
+
+   .saudara {
+      top: 48%;
+      right: 64%;
+
+   }
+
+   .saudara .bunder1 {
+      height: 150px;
+      width: auto;
+   }
+
+   .kakek {
+      top: 50%;
+      right: 0%;
+   }
+
+   .kakek .bunder3 {
+      height: 147px;
+   }
+
+   /* about end */
+
+   /* portofolio start */
+
+   .text-porto {
+      padding-top: 20%;
+   }
+
+   .img-porto {
+      width: 40%;
+   }
+
+   .porto-img-3 {
+      width: 00px;
+   }
+
+   .porto-img {
+      width: 200px;
+   }
+
+   .col-md-6 .porto-img-2 {
+      width: 200px;
+   }
+
+
+   /* portofolio end */
+}
+
+
+@media screen and (max-width : 767px) {
+
+   /* navbar start */
+   #navbarNavAltMarkup{
+      background-color: rgba(2, 78, 77, 0.896);
+      padding-bottom: 10px;
+      padding-left: 10px;
+    }
+    .button-order {
+       color: white;
+      background-color: var(--main--bg);
+   
+    }
+
+   /* navbar end */
+
+   #hero {
+      min-height: 130vh;
+   }
+   .lanang-title {
+      margin-top: 20%;
+      font-size: 4em;
+   }
+
+   .lanang-title-1 {
+      font-size: 3.8em;
+   }
+
+   .img-lanang {
+      width: 55%;
+      height: auto;
+      transform: translate(48%, -10%);
+   }
+
+   .about-lanang {
+      font-size: 19px;
+   }
+
+   .ibu {
+      width: 100px;
+      top: -10%;
+      right: 50%;
+   }
+
+   .saudara {
+      top: 39%;
+      right: 70%;
+      z-index: -1;
+   }
+
+   .saudara .bunder1 {
+      height: auto;
+      width: 80px;
+   }
+
+   .ayah {
+      top: -11%;
+      right: 18%;
+      z-index: -1;
+   }
+
+   .ayah .bunder3 {
+      width: 85px;
+      height: auto;
+   }
+
+   .kakek {
+      top: 39%;
+      right: 0%;
+   }
+
+   .kakek .bunder3 {
+      width: 80px;
+      height: auto;
+   }
+
+   /* portofolio start */
+   #portofolio {
+      min-height: 200%;
+   }
+
+
+   .wrapper-left {
+      justify-content: center;
+      margin-bottom: 20px;
+   }
+
+   .wrapper-center {
+      justify-content: center;
+      margin-bottom: 20px;
+   }
+
+   .wrapper-right {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+   }
+
+   .wrapper-left {
+      justify-content: center;
+      margin-bottom: 20px;
+   }
+
+   .porto-img-3 {
+      width: 90%;
+
+   }
+
+   .bungkus {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+   }
+
+   .porto-img {
+      width: 90%;
+   }
+
+   .col-md-6 .porto-img-2 {
+      width: 90%;
+      display: flex;
+      justify-content: center;
+   }
+
+   .bungkus-kanan {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+
+   }
+
+   /* portofolio end */
+}

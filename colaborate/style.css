@@ -1,0 +1,138 @@
+:root {
+    --main--bg: #1d1d42;
+    --second--bg: #4e2ecf;
+    --ukiran: #6fcf97;
+    --deactive: rgb(31, 31, 31);
+    --white: rgb(218, 218, 218);
+    --deactive--white: rgb(232, 232, 232);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  font-style:'Poppins', sans-serif;
+  
+}
+
+
+/* navbar */
+.bg-custom {
+    background: linear-gradient rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.089);
+  }
+  
+  .navbar {
+    font-size: 18px;
+    z-index: 5;
+    height: 55px;
+  }
+  
+  .navbar .navbar-brand {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 900;
+  
+  }
+  
+  .button-order {
+    background-color: var(--ukiran);
+    border: none;
+    color: var(--second--bg);
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 13px;
+  }
+  
+  .button-order:hover {
+    background-color: var(--main--bg);
+    color: var(--ukiran);
+  }
+  
+  .navbar span {
+    font-weight: 700;
+    color: #93e8b6;
+  }
+  /* navbar end */
+
+.row {
+    padding-top: 7%;
+}
+
+.wrapper-colaborate {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.participant>.wrapper-colaborate {
+    justify-content: flex-start;
+
+}
+
+
+
+.img-participant {
+    height: auto;
+    width:;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.104);
+    border-radius: 35px;
+}
+
+.wrapper-participant {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+
+}
+
+
+.wrapper-participant h1,
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(244, 244, 244);
+}
+
+h4 {
+    text-align: center;
+    padding-left: 10px;
+    color: rgb(244, 244, 244);
+}
+
+.wrapper-colaborate1 {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+
+.wrapper-colaborate2 {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.img-Footer {
+    height: auto;
+    width: 100%;
+}
+
+.text-title,
+.card-title {
+    color: var(--white);
+    font-weight: 700;
+}
+
+.card-text,
+.text-description {
+    color: var(--deactive--white);
+    font-weight: 400;
+    font-size: 14px;
+}
